@@ -93,10 +93,10 @@ DATABASESx = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd1rlipobrgit15',
-        'USER': 'aotkgcpcmtwhyy',
-        'PASSWORD': 'f22557b2cdcd01e4c8fb755277dd5d36055b3e141124798d02730c1c6e8f3777',
-        'HOST': 'ec2-50-17-203-195.compute-1.amazonaws.com',
+        'NAME': 'mydatabase',
+        'USER': 'mydatabaseuser',
+        'PASSWORD': 'mypassword',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
